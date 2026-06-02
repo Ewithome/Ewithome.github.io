@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <author>
+    <name>Ewithome</name>
+  </author>
+  <generator uri="https://hexo.io/">Hexo</generator>
+  <id>https://ewithome.github.io/</id>
+  <link href="https://ewithome.github.io/" rel="alternate"/>
+  <link href="https://ewithome.github.io/atom.xml" rel="self"/>
+  <rights>All rights reserved 2026, Ewithome</rights>
+  <subtitle>把日子，慢慢写下来</subtitle>
+  <title>Ewithome Blog</title>
+  <updated>2026-06-01T09:23:21.000Z</updated>
+  <entry>
+    <author>
+      <name>Ewithome</name>
+    </author>
+    <content>
+      <![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]>
+    </content>
+    <id>https://ewithome.github.io/2026/06/02/hello-world/</id>
+    <link href="https://ewithome.github.io/2026/06/02/hello-world/"/>
+    <published>2026-06-02T01:33:09.158Z</published>
+    <summary>
+      <![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for]]>
+    </summary>
+    <title>Hello World</title>
+    <updated>2026-06-01T09:23:21.000Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Ewithome</name>
+    </author>
+    <category term="Technology" scheme="https://ewithome.github.io/categories/Technology/"/>
+    <category term="Hexo" scheme="https://ewithome.github.io/tags/Hexo/"/>
+    <category term="Blog" scheme="https://ewithome.github.io/tags/Blog/"/>
+    <category term="Static Site Generator" scheme="https://ewithome.github.io/tags/Static-Site-Generator/"/>
+    <content>
+      <![CDATA[<p>Welcome to my blog! This post will guide you through the basics of getting started with Hexo.</p><h2 id="What-is-Hexo"><a href="#What-is-Hexo" class="headerlink" title="What is Hexo?"></a>What is Hexo?</h2><p>Hexo is a fast, simple, and powerful blog framework powered by Node.js. It allows you to write blog posts in Markdown and generates a static website that can be hosted on GitHub Pages or any other hosting service.</p><h2 id="Key-Features"><a href="#Key-Features" class="headerlink" title="Key Features"></a>Key Features</h2><ul><li><strong>Fast</strong>: Hexo is built for speed. It can generate a website with hundreds of files in seconds.</li><li><strong>Simple</strong>: With a straightforward configuration, you can have your site up and running quickly.</li><li><strong>Powerful</strong>: Hexo supports plugins and themes, allowing you to extend its functionality.</li><li><strong>Free Hosting</strong>: You can host your Hexo blog for free on GitHub Pages.</li></ul><h2 id="Getting-Started"><a href="#Getting-Started" class="headerlink" title="Getting Started"></a>Getting Started</h2><p>To get started with Hexo:</p><ol><li>Install Node.js and npm</li><li>Install Hexo CLI: <code>npm install -g hexo-cli</code></li><li>Create a new blog: <code>hexo init my-blog</code></li><li>Install dependencies: <code>cd my-blog &amp;&amp; npm install</code></li><li>Start the local server: <code>hexo server</code></li></ol><p>Your blog will be available at <code>http://localhost:4000</code></p><h2 id="Writing-Posts"><a href="#Writing-Posts" class="headerlink" title="Writing Posts"></a>Writing Posts</h2><p>To create a new post:</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new post <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>This will create a new markdown file in the <code>source/_posts</code> directory where you can write your content.</p><h2 id="Deployment"><a href="#Deployment" class="headerlink" title="Deployment"></a>Deployment</h2><p>When you’re ready to publish, build and deploy your site:</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo generate</span><br><span class="line">hexo deploy</span><br></pre></td></tr></table></figure><p>Happy blogging!</p>]]>
+    </content>
+    <id>https://ewithome.github.io/2026/06/01/getting-started/</id>
+    <link href="https://ewithome.github.io/2026/06/01/getting-started/"/>
+    <published>2026-06-01T09:00:00.000Z</published>
+    <summary>
+      <![CDATA[<p>Welcome to my blog! This post will guide you through the basics of getting started with Hexo.</p>
+<h2 id="What-is-Hexo"><a href="#What-is]]>
+    </summary>
+    <title>Getting Started with Hexo</title>
+    <updated>2026-06-01T09:23:21.000Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Ewithome</name>
+    </author>
+    <category term="Technology" scheme="https://ewithome.github.io/categories/Technology/"/>
+    <category term="Web Development" scheme="https://ewithome.github.io/tags/Web-Development/"/>
+    <category term="HTML" scheme="https://ewithome.github.io/tags/HTML/"/>
+    <category term="CSS" scheme="https://ewithome.github.io/tags/CSS/"/>
+    <category term="JavaScript" scheme="https://ewithome.github.io/tags/JavaScript/"/>
+    <content>
+      <![CDATA[<p>Web development is an exciting field that combines creativity with technical skills. In this post, I’ll introduce you to the basics of web development.</p><h2 id="The-Three-Pillars-of-Web-Development"><a href="#The-Three-Pillars-of-Web-Development" class="headerlink" title="The Three Pillars of Web Development"></a>The Three Pillars of Web Development</h2><h3 id="HTML-The-Structure"><a href="#HTML-The-Structure" class="headerlink" title="HTML - The Structure"></a>HTML - The Structure</h3><p>HTML (HyperText Markup Language) provides the structure of web pages. It uses tags to define different elements like headings, paragraphs, links, and images.</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>My Page<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">h1</span>&gt;</span>Welcome to My Page<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">p</span>&gt;</span>This is a paragraph.<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure><h3 id="CSS-The-Styling"><a href="#CSS-The-Styling" class="headerlink" title="CSS - The Styling"></a>CSS - The Styling</h3><p>CSS (Cascading Style Sheets) is used to style and layout HTML elements. It allows you to control colors, fonts, spacing, and more.</p><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">body</span> &#123;</span><br><span class="line">  <span class="attribute">font-family</span>: Arial, sans-serif;</span><br><span class="line">  <span class="attribute">background-color</span>: <span class="number">#f0f0f0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-tag">h1</span> &#123;</span><br><span class="line">  <span class="attribute">color</span>: <span class="number">#333</span>;</span><br><span class="line">  <span class="attribute">text-align</span>: center;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h3 id="JavaScript-The-Interactivity"><a href="#JavaScript-The-Interactivity" class="headerlink" title="JavaScript - The Interactivity"></a>JavaScript - The Interactivity</h3><p>JavaScript adds interactivity to web pages. It allows you to respond to user events and manipulate the DOM dynamically.</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable language_">document</span>.<span class="title function_">querySelector</span>(<span class="string">&#x27;h1&#x27;</span>).<span class="title function_">addEventListener</span>(<span class="string">&#x27;click&#x27;</span>, <span class="keyword">function</span>(<span class="params"></span>) &#123;</span><br><span class="line">  <span class="title function_">alert</span>(<span class="string">&#x27;Hello World!&#x27;</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure><h2 id="Modern-Web-Development"><a href="#Modern-Web-Development" class="headerlink" title="Modern Web Development"></a>Modern Web Development</h2><p>Today’s web development involves:</p><ul><li><strong>Frameworks</strong>: React, Vue, Angular make development easier</li><li><strong>Tools</strong>: Webpack, Babel help with bundling and transpilation</li><li><strong>Testing</strong>: Jest, Mocha ensure code quality</li><li><strong>Version Control</strong>: Git keeps track of changes</li></ul><h2 id="Best-Practices"><a href="#Best-Practices" class="headerlink" title="Best Practices"></a>Best Practices</h2><ol><li>Write semantic HTML for better accessibility</li><li>Use CSS frameworks like Bootstrap for faster development</li><li>Follow the DRY (Don’t Repeat Yourself) principle</li><li>Test your code thoroughly</li><li>Keep your code clean and well-organized</li></ol><p>Web development is a continuous learning journey. Start with the basics and gradually expand your skills!</p>]]>
+    </content>
+    <id>https://ewithome.github.io/2026/05/30/web-development/</id>
+    <link href="https://ewithome.github.io/2026/05/30/web-development/"/>
+    <published>2026-05-30T14:30:00.000Z</published>
+    <summary>
+      <![CDATA[<p>Web development is an exciting field that combines creativity with technical skills. In this post, I’ll introduce you to the basics of we]]>
+    </summary>
+    <title>Introduction to Web Development</title>
+    <updated>2026-06-01T09:23:21.000Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Ewithome</name>
+    </author>
+    <category term="Lifestyle" scheme="https://ewithome.github.io/categories/Lifestyle/"/>
+    <category term="Productivity" scheme="https://ewithome.github.io/tags/Productivity/"/>
+    <category term="Time Management" scheme="https://ewithome.github.io/tags/Time-Management/"/>
+    <category term="Tips" scheme="https://ewithome.github.io/tags/Tips/"/>
+    <content>
+      <![CDATA[<p>In today’s fast-paced world, productivity is key to success. Here are some practical tips to help you work more efficiently and accomplish your goals.</p><h2 id="1-Start-Your-Day-with-a-Clear-Plan"><a href="#1-Start-Your-Day-with-a-Clear-Plan" class="headerlink" title="1. Start Your Day with a Clear Plan"></a>1. Start Your Day with a Clear Plan</h2><p>Before diving into work, take 10-15 minutes to plan your day. Identify your top 3 priorities and focus on completing them first.</p><h2 id="2-Use-the-Pomodoro-Technique"><a href="#2-Use-the-Pomodoro-Technique" class="headerlink" title="2. Use the Pomodoro Technique"></a>2. Use the Pomodoro Technique</h2><p>The Pomodoro Technique involves:</p><ul><li>Working for 25 minutes (one “pomodoro”)</li><li>Taking a 5-minute break</li><li>After 4 pomodoros, take a longer 15-30 minute break</li></ul><p>This method helps maintain focus and prevents burnout.</p><h2 id="3-Minimize-Distractions"><a href="#3-Minimize-Distractions" class="headerlink" title="3. Minimize Distractions"></a>3. Minimize Distractions</h2><ul><li>Turn off notifications on your phone and computer</li><li>Use website blockers to avoid time-wasting sites</li><li>Close unnecessary browser tabs and applications</li><li>Find a quiet workspace if possible</li></ul><h2 id="4-Take-Regular-Breaks"><a href="#4-Take-Regular-Breaks" class="headerlink" title="4. Take Regular Breaks"></a>4. Take Regular Breaks</h2><p>Your brain needs rest to function optimally. Step away from your desk, stretch, or take a walk. You’ll return to work refreshed and more focused.</p><h2 id="5-Learn-to-Say-No"><a href="#5-Learn-to-Say-No" class="headerlink" title="5. Learn to Say No"></a>5. Learn to Say No</h2><p>Not every task deserves your time and energy. Be selective about commitments and focus on what aligns with your goals.</p><h2 id="6-Automate-Repetitive-Tasks"><a href="#6-Automate-Repetitive-Tasks" class="headerlink" title="6. Automate Repetitive Tasks"></a>6. Automate Repetitive Tasks</h2><p>Look for opportunities to automate routine work:</p><ul><li>Use templates for common documents</li><li>Set up automation tools for repetitive workflows</li><li>Batch similar tasks together</li></ul><h2 id="7-Keep-Your-Workspace-Organized"><a href="#7-Keep-Your-Workspace-Organized" class="headerlink" title="7. Keep Your Workspace Organized"></a>7. Keep Your Workspace Organized</h2><p>A clean workspace promotes clear thinking. Organize your files, both digital and physical.</p><h2 id="8-Review-and-Adjust"><a href="#8-Review-and-Adjust" class="headerlink" title="8. Review and Adjust"></a>8. Review and Adjust</h2><p>At the end of each day, reflect on:</p><ul><li>What went well?</li><li>What could be improved?</li><li>What will you focus on tomorrow?</li></ul><h2 id="9-Invest-in-Your-Skills"><a href="#9-Invest-in-Your-Skills" class="headerlink" title="9. Invest in Your Skills"></a>9. Invest in Your Skills</h2><p>Continuous learning makes you more efficient:</p><ul><li>Take courses to learn new tools</li><li>Read books and articles in your field</li><li>Practice new techniques</li></ul><h2 id="10-Practice-Self-Care"><a href="#10-Practice-Self-Care" class="headerlink" title="10. Practice Self-Care"></a>10. Practice Self-Care</h2><p>Don’t neglect:</p><ul><li>Adequate sleep (7-9 hours)</li><li>Regular exercise</li><li>Healthy nutrition</li><li>Mental health and relaxation</li></ul><p>Remember, productivity isn’t about doing more—it’s about doing what matters most effectively. Start with one or two tips and gradually incorporate more into your routine.</p>]]>
+    </content>
+    <id>https://ewithome.github.io/2026/05/28/productivity-tips/</id>
+    <link href="https://ewithome.github.io/2026/05/28/productivity-tips/"/>
+    <published>2026-05-28T10:15:00.000Z</published>
+    <summary>
+      <![CDATA[<p>In today’s fast-paced world, productivity is key to success. Here are some practical tips to help you work more efficiently and accomplis]]>
+    </summary>
+    <title>Tips for Better Productivity</title>
+    <updated>2026-06-01T09:23:21.000Z</updated>
+  </entry>
+</feed>
