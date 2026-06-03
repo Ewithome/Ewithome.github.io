@@ -10,43 +10,47 @@
   <rights>All rights reserved 2026, Ewithome</rights>
   <subtitle>把日子，慢慢写下来</subtitle>
   <title>Ewithome Blog</title>
-  <updated>2026-06-02T09:10:58.060Z</updated>
+  <updated>2026-06-03T04:01:22.969Z</updated>
   <entry>
     <author>
       <name>Ewithome</name>
     </author>
+    <category term="博客" scheme="https://ewithome.github.io/categories/%E5%8D%9A%E5%AE%A2/"/>
+    <category term="博客" scheme="https://ewithome.github.io/tags/%E5%8D%9A%E5%AE%A2/"/>
     <content>
-      <![CDATA[<p>Welcome to CharmingZhang! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="快速入门"><a href="#快速入门" class="headerlink" title="快速入门"></a>快速入门</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="运行服务"><a href="#运行服务" class="headerlink" title="运行服务"></a>运行服务</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]>
+      <![CDATA[<p>Welcome to CharmingZhang!</p><p>这里是我在 GitHub Pages 上的个人博客，用来记录开发笔记、项目想法和生活片段。</p><h2 id="关于我"><a href="#关于我" class="headerlink" title="关于我"></a>关于我</h2><p>欢迎访问我的 <a href="https://github.com/Ewithome">GitHub</a> 了解近期动态。</p><h2 id="近期项目"><a href="#近期项目" class="headerlink" title="近期项目"></a>近期项目</h2><p>我在维护 npm 包 <a href="https://www.npmjs.com/package/wise-map">wise-map</a>，欢迎试用与反馈。</p>]]>
     </content>
     <id>https://ewithome.github.io/2026/06/02/hello-world/</id>
     <link href="https://ewithome.github.io/2026/06/02/hello-world/"/>
     <published>2026-06-02T09:33:09.000Z</published>
     <summary>
-      <![CDATA[<p>Welcome to CharmingZhang! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get]]>
+      <![CDATA[<p>Welcome to CharmingZhang!</p>
+<p>这里是我在 GitHub Pages 上的个人博客，用来记录开发笔记、项目想法和生活片段。</p>
+<h2 id="关于我"><a href="#关于我" class="headerlink" title="]]>
     </summary>
     <title>欢迎来到我的博客</title>
-    <updated>2026-06-02T09:10:58.060Z</updated>
+    <updated>2026-06-03T04:01:22.969Z</updated>
   </entry>
   <entry>
     <author>
       <name>Ewithome</name>
     </author>
-    <category term="Technology" scheme="https://ewithome.github.io/categories/Technology/"/>
-    <category term="Hexo" scheme="https://ewithome.github.io/tags/Hexo/"/>
-    <category term="Blog" scheme="https://ewithome.github.io/tags/Blog/"/>
-    <category term="Static Site Generator" scheme="https://ewithome.github.io/tags/Static-Site-Generator/"/>
+    <category term="博客" scheme="https://ewithome.github.io/categories/%E5%8D%9A%E5%AE%A2/"/>
+    <category term="博客" scheme="https://ewithome.github.io/tags/%E5%8D%9A%E5%AE%A2/"/>
+    <category term="Wise Map" scheme="https://ewithome.github.io/tags/Wise-Map/"/>
     <content>
-      <![CDATA[<p>Welcome to my blog! This post will guide you through the basics of getting started with Hexo.</p><h2 id="What-is-Hexo"><a href="#What-is-Hexo" class="headerlink" title="What is Hexo?"></a>What is Hexo?</h2><p>Hexo is a fast, simple, and powerful blog framework powered by Node.js. It allows you to write blog posts in Markdown and generates a static website that can be hosted on GitHub Pages or any other hosting service.</p><h2 id="Key-Features"><a href="#Key-Features" class="headerlink" title="Key Features"></a>Key Features</h2><ul><li><strong>Fast</strong>: Hexo is built for speed. It can generate a website with hundreds of files in seconds.</li><li><strong>Simple</strong>: With a straightforward configuration, you can have your site up and running quickly.</li><li><strong>Powerful</strong>: Hexo supports plugins and themes, allowing you to extend its functionality.</li><li><strong>Free Hosting</strong>: You can host your Hexo blog for free on GitHub Pages.</li></ul><h2 id="Getting-Started"><a href="#Getting-Started" class="headerlink" title="Getting Started"></a>Getting Started</h2><p>To get started with Hexo:</p><ol><li>Install Node.js and npm</li><li>Install Hexo CLI: <code>npm install -g hexo-cli</code></li><li>Create a new blog: <code>hexo init my-blog</code></li><li>Install dependencies: <code>cd my-blog &amp;&amp; npm install</code></li><li>Start the local server: <code>hexo server</code></li></ol><p>Your blog will be available at <code>http://localhost:4000</code></p><h2 id="Writing-Posts"><a href="#Writing-Posts" class="headerlink" title="Writing Posts"></a>Writing Posts</h2><p>To create a new post:</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new post <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>This will create a new markdown file in the <code>source/_posts</code> directory where you can write your content.</p><h2 id="Deployment"><a href="#Deployment" class="headerlink" title="Deployment"></a>Deployment</h2><p>When you’re ready to publish, build and deploy your site:</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo generate</span><br><span class="line">hexo deploy</span><br></pre></td></tr></table></figure><p>Happy blogging!</p>]]>
+      <![CDATA[<p>本站是我的个人博客，主要发布技术笔记、项目记录与随笔。</p><h2 id="你可以在这里找到"><a href="#你可以在这里找到" class="headerlink" title="你可以在这里找到"></a>你可以在这里找到</h2><ul><li>开发笔记与工具分享</li><li>开源项目动态</li><li>偶发的生活记录</li></ul><h2 id="相关链接"><a href="#相关链接" class="headerlink" title="相关链接"></a>相关链接</h2><ul><li>GitHub：<a href="https://github.com/Ewithome">Ewithome</a></li><li>npm：<a href="https://www.npmjs.com/package/wise-map">wise-map</a></li></ul>]]>
     </content>
     <id>https://ewithome.github.io/2026/06/01/getting-started/</id>
     <link href="https://ewithome.github.io/2026/06/01/getting-started/"/>
     <published>2026-06-01T09:00:00.000Z</published>
     <summary>
-      <![CDATA[<p>Welcome to my blog! This post will guide you through the basics of getting started with Hexo.</p>
-<h2 id="What-is-Hexo"><a href="#What-is]]>
+      <![CDATA[<p>本站是我的个人博客，主要发布技术笔记、项目记录与随笔。</p>
+<h2 id="你可以在这里找到"><a href="#你可以在这里找到" class="headerlink" title="你可以在这里找到"></a>你可以在这里找到</h2><ul>
+<li>开发笔记与]]>
     </summary>
-    <title>Getting Started with Hexo</title>
-    <updated>2026-06-01T09:23:21.000Z</updated>
+    <title>本站说明</title>
+    <updated>2026-06-03T04:01:23.591Z</updated>
   </entry>
   <entry>
     <author>

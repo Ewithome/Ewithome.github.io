@@ -1,11 +1,11 @@
 <!doctype html>
 
-<html lang="zh-CN">
+<html lang="zh-CN" data-fancybox-enabled="1">
 <head>
   <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#f7f3e9">
-<title>Ewithome Blog</title>
+<title>分类 | Ewithome Blog</title>
 
   <meta name="description" content="记录技术、生活与见闻的个人博客">
 
@@ -35,6 +35,9 @@
   
 
   
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css">
+<script defer src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+
 
   
 <link rel="alternate" href="/atom.xml" title="Ewithome Blog" type="application/atom+xml">
@@ -141,14 +144,14 @@
                 <span>归档</span>
               </a>
             
-              <a role="menuitem" class="" href="/categories/">
+              <a role="menuitem" class="active" href="/categories/">
                 
 <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-folder" aria-hidden="true"><path d="M20 20a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.93a2 2 0 0 1-1.66-.9l-.82-1.2A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2Z"/></svg>
 
                 <span>分类</span>
               </a>
             
-              <a role="menuitem" class="active" href="/tags/">
+              <a role="menuitem" class="" href="/tags/">
                 
 <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-tag" aria-hidden="true"><path d="M12.586 2.586A2 2 0 0 0 11.172 2H4a2 2 0 0 0-2 2v7.172a2 2 0 0 0 .586 1.414l8.704 8.704a2.426 2.426 0 0 0 3.42 0l6.58-6.58a2.426 2.426 0 0 0 0-3.42z"/><circle cx="7.5" cy="7.5" r=".5" fill="currentColor"/></svg>
 
@@ -207,7 +210,7 @@
 
 
   
-  <main class="paper-shell ">
+  <main class="paper-shell paper-shell--article">
     
 
 <aside id="paper-sidebar-drawer" class="paper-sidebar paper-sidebar--right" aria-label="侧边栏">
@@ -286,14 +289,14 @@
                   <span>归档</span>
                 </a>
               
-                <a class="" href="/categories/">
+                <a class="active" href="/categories/">
                   
 <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-folder" aria-hidden="true"><path d="M20 20a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.93a2 2 0 0 1-1.66-.9l-.82-1.2A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2Z"/></svg>
 
                   <span>分类</span>
                 </a>
               
-                <a class="active" href="/tags/">
+                <a class="" href="/tags/">
                   
 <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-tag" aria-hidden="true"><path d="M12.586 2.586A2 2 0 0 0 11.172 2H4a2 2 0 0 0-2 2v7.172a2 2 0 0 0 .586 1.414l8.704 8.704a2.426 2.426 0 0 0 3.42 0l6.58-6.58a2.426 2.426 0 0 0 0-3.42z"/><circle cx="7.5" cy="7.5" r=".5" fill="currentColor"/></svg>
 
@@ -462,19 +465,34 @@
 
     <section class="paper-main">
       
-<section class="archive-paper">
-  <h1>Web Development</h1>
-  <div class="archive-list">
-    
-      <a class="archive-item" href="/2026/05/30/web-development/">
-        <span>2026-05-30</span>
-        <strong>Introduction to Web Development</strong>
-        <em></em>
-      </a>
-    
-  </div>
-</section>
 
+  <section class="taxonomy-paper">
+  <h1>分类</h1>
+  
+  
+    <div class="taxonomy-grid">
+      
+        <a class="taxonomy-card" href="/categories/%E5%8D%9A%E5%AE%A2/">
+          <span class="dot dot-0"></span>
+          <strong>博客</strong>
+          <em>2 篇</em>
+        </a>
+      
+        <a class="taxonomy-card" href="/categories/Technology/">
+          <span class="dot dot-1"></span>
+          <strong>Technology</strong>
+          <em>1 篇</em>
+        </a>
+      
+        <a class="taxonomy-card" href="/categories/Lifestyle/">
+          <span class="dot dot-2"></span>
+          <strong>Lifestyle</strong>
+          <em>1 篇</em>
+        </a>
+      
+    </div>
+  
+</section>
 
 
 
@@ -482,80 +500,6 @@
 
 
     </section>
-    
-      <aside class="paper-sidebar paper-sidebar--left">
-  
-  
-
-  <section class="side-card recent-card" data-random-posts-limit="5">
-    <h2>
-<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shuffle" aria-hidden="true"><path d="m18 14 4 4-4 4"/><path d="m18 2 4 4-4 4"/><path d="M2 18h1.4c1.3 0 2.5-.6 3.3-1.7l6.6-8.6C14.1 6.6 15.2 6 16.6 6H22"/><path d="M2 6h1.9c.9 0 1.8.4 2.4 1.1l1.4 1.8"/><path d="M22 18h-5.4c-1.3 0-2.5-.6-3.3-1.7l-.5-.7"/></svg>
-随机文章</h2>
-    <ul class="recent-list js-random-posts">
-      
-        <li>
-          <a class="recent-item" href="/2026/06/02/hello-world/">
-            <strong>欢迎来到我的博客</strong>
-            <em>2026-06-02</em>
-          </a>
-        </li>
-      
-        <li>
-          <a class="recent-item" href="/2026/06/01/getting-started/">
-            <strong>本站说明</strong>
-            <em>2026-06-01</em>
-          </a>
-        </li>
-      
-        <li>
-          <a class="recent-item" href="/2026/05/30/web-development/">
-            <strong>Introduction to Web Development</strong>
-            <em>2026-05-30</em>
-          </a>
-        </li>
-      
-        <li>
-          <a class="recent-item" href="/2026/05/28/productivity-tips/">
-            <strong>Tips for Better Productivity</strong>
-            <em>2026-05-28</em>
-          </a>
-        </li>
-      
-    </ul>
-    <script type="application/json" class="js-random-posts-data">
-    [
-    
-      {
-        "title": "欢迎来到我的博客",
-        "url": "/2026/06/02/hello-world/",
-        "date": "2026-06-02"
-      },
-    
-      {
-        "title": "本站说明",
-        "url": "/2026/06/01/getting-started/",
-        "date": "2026-06-01"
-      },
-    
-      {
-        "title": "Introduction to Web Development",
-        "url": "/2026/05/30/web-development/",
-        "date": "2026-05-30"
-      },
-    
-      {
-        "title": "Tips for Better Productivity",
-        "url": "/2026/05/28/productivity-tips/",
-        "date": "2026-05-28"
-      }
-    
-    ]
-    </script>
-  </section>
-
-
-</aside>
-
     
   </main>
 
